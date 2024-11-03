@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FakePinterest</title>
+        <link 
+            rel="icon" 
+            href="https://cdn-icons-png.freepik.com/256/11389/11389502.png?ga=GA1.1.405301212.1728933879&semt=ais_hybrid" 
+            type="image/x-icon"
+        /> 
+        <meta name="author" content="Jorge"/>
+        <meta name="description" content="Web imitacion de Pinterest para ejercicio de clase del curso ROCK{THECODE} de THEPOWERMBA">
+        <link rel="canonical" href="/home">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/home">
+                    <img src="https://cdn-icons-png.freepik.com/256/11389/11389502.png?ga=GA1.1.405301212.1728933879&semt=ais_hybrid" alt="Logo de FakePinterest" width="48" height="48">
+                </a>
+                <ul>
+                    <li> <a href="/inicio">Inicio</a></li>
+                    <li> <a href="/explorar">Explorar</a></li>
+                    <li> <a href="/crear">Crear</a></li>
+                </ul>
+                <form name="buscador" action="/next_page" method="get" accept-charset="UTF-8">
+                    <input type="text" id="buscardor" name="buscador" placeholder="Buscar...">
+                </form>              
+            </nav>
+        </header>
+        <main>
+            <h1>Bienvenido a Pinterest</h1>
+            <section>
+                <h2>Imagenes destacadas</h2>
+                <article>
+                    <a href="https://img.freepik.com/premium-photo/hoodie-cutie-adorable-monster-pokemon_931866-17675.jpg?w=380">
+                        <img src="https://img.freepik.com/premium-photo/hoodie-cutie-adorable-monster-pokemon_931866-17675.jpg?w=380" alt="Foto de Pikachu disfrazado de Snorlax" loading="lazy">
+                    </a>
+                </article>
+                <article>
+                    <a href="https://img.freepik.com/premium-photo/hoodie-cutie-adorable-monster-pokemon_931866-18022.jpg?w=380">
+                        <img src="https://img.freepik.com/premium-photo/hoodie-cutie-adorable-monster-pokemon_931866-18022.jpg?w=380" alt="Foto de Umbreon" loading="lazy">
+                    </a>
+                </article>
+                <article>
+                    <a href="https://img.freepik.com/premium-photo/hoodie-cutie-adorable-monster-pokemon_931866-17410.jpg?w=380">
+                        <img src="https://img.freepik.com/premium-photo/hoodie-cutie-adorable-monster-pokemon_931866-17410.jpg?w=380" alt="Pikachu disfrazado" loading="lazy">
+                    </a>
+                </article>
+            </section>  
+           
+        </main>
+        <footer>
+            <nav>
+                <a href="https://policy.pinterest.com/es/privacy-policy">Politica de privacidad</a>
+                <a href="https://policy.pinterest.com/es/terms-of-service">Condiciones de servicio</a>
+
+            </nav>
+        </footer>
+        <script src="scripts.js"></script>
+    </body>
+</html>
